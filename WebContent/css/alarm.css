@@ -1,0 +1,141 @@
+        @font-face {
+            font-family: "dijital";
+            src: url("../font/dijital.ttf");
+        }
+
+        @font-face {
+            font-family: "bold";
+            src: url("../font/bold.ttf");
+        }
+
+        @font-face {
+            font-family: "abc";
+            src: url("../font/abc.ttf");
+        }
+
+        * {
+            font-size: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        a:hover {
+            color: gray;
+        }
+
+
+        nav {
+            margin: 0;
+        }
+
+        nav>ul {
+            padding-top: 10px;
+            background: white;
+        }
+
+        nav>ul>li {
+
+            display: inline;
+            border-right: 1px solid #999;
+            font: bold 12px "바탕";
+            padding: 0 40px;
+        }
+
+
+
+
+        #search {
+            margin-right: 50px;
+        }
+
+        #login,
+        #search {
+            float: right;
+            border-right: none;
+            padding: 10px;
+        }
+
+        #background {
+            width: 70%;
+            margin: 10px auto;
+            position: relative;
+        }
+
+        #background img {
+            width: 100%;
+            vertical-align: middle;
+        }
+
+        #time {
+            font-family: "dijital";
+            font-size: 10em;
+            padding: 5px 10px;
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+
+        #content {
+            background-color: #dcdcdc;
+        }
+
+        #alarmSetting {
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.5em;
+            font-family: "dijital";
+            background-color: darkgray;
+            color: white;
+            padding: 15px;
+            border: 3px solid white;
+        }
+
+        #alarmSetting:hover {
+            background-color: dimgray;
+            color: gainsboro;
+            cursor: pointer;
+        }
+
+        #page {
+            position: relative;
+            top: 70px;
+            display: none;
+            width: 100%;
+            z-index: 1;
+            height: 70%;
+            background-color: white;
+        }
+
+
+        .pmenu {
+            position: absolute;
+            width: 300px;
+            height: 50%;
+            border-right: 2px solid #dcdcdc;
+        }
+
+        .pmenu>ul>li {
+            width: 150px;
+            list-style: none;
+            margin-top: 50px;
+            font-family: "abc";
+            font-size: 1.2em;
+            display: none;
+        }
+
+        .pmenu>ul>li:first-child {
+            font-weight: 900;
+        }
+
+        .pmenu>ul>li:hover {
+            cursor: pointer;
+        }

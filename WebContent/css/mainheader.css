@@ -1,0 +1,59 @@
+@charset "UTF-8";
+	@font-face {
+            font-family: "dijital";
+            src: url("../font/dijital.ttf");
+        }
+
+        @font-face {
+            font-family: "bold";
+            src: url("../font/bold.ttf");
+        }
+
+        @font-face {
+            font-family: "abc";
+            src: url("../font/abc.ttf");
+        }	
+
+ * {
+            font-size: 15px;
+        }
+		body{
+			font-family : "abc";
+			margin : 0;
+		}
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        a:hover {
+            color: gray;
+        }
+
+        #login{
+            float: right;
+            border-right: none;
+            padding: 10px;
+            cursor : pointer;           
+            margin-right : 40px;
+        }
+
+        #menu {
+            padding-top: 10px;
+            background: white;
+            margin-top : 0;
+        }
+
+        #menu>li {
+
+            display: inline;
+            border-right: 1px solid #999;
+            font: bold 12px "바탕";
+            padding: 0 40px;
+        }
+       	#menu{
+       		margin-bottom : 0px;
+       	}
+		#menu > li:last-child{
+			border-right : none;
+		}
