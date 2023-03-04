@@ -1,5 +1,5 @@
 # AlarmHeave
-This project is created at algorizm school club.
+This project is developmented in algorizm school club.
 
 # Function
 Setting Alarm<br>
